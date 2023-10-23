@@ -1,0 +1,166 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+/* Header css */
+
+.header {
+    width: 1440px;
+    background-color: #F5F7FA;
+    margin: 0px auto;
+}
+
+.container {
+    max-width: 1152px;
+    width: 100%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #18191F;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    transition: all 0.4s;
+}
+
+ul li a:hover {
+    color: #4CAF4F;
+}
+
+.container .signin a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #18191F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    transition: all 0.4s;
+}
+
+.container .signin a:hover {
+    background-color: #4CAF4F;
+    color: white;
+}
+
+.main {
+    max-width: 1440px;
+    width: 100%;
+    height: 599px;
+    padding: 96px 144px;
+    background-color: #F5F7FA;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.main .title h1 {
+    color: black;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.main .title h1 span {
+    color: #4CAF4F;
+}
+
+.main .title p {
+    margin-top: 16px;
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+.main .title a {
+    display: block;
+    margin-top: 32px;
+    padding: 14px 32px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 128px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.main .title a:hover {
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+}
+
+.main .imgs {
+    margin-left: 104px;
+}
+
+
+.clients {
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 40px 144px;
+    text-align: center;
+}
+
+.clients h1 {
+    color: #4D4D4D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    /* 122.222% */
+}
+
+.clients p {
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    margin-top: 8px;
+}
+.clients .img-group
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.clients .img-group .img
+{
+    margin-left: 133px;
+}
